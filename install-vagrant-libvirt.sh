@@ -1,4 +1,5 @@
 #!/bin/bash
+# Install kvm, vagrant and vagrant-libvirt plugin, and run a vm and connect to it
 apt-get install -y kvm ubuntu-vm-builder libvirt-bin bridge-utils virtinst libvirt-dev libxslt-dev libxml2-dev
 
 ssh-keygen -b 2048 -t rsa -f ~/.ssh/id_rsa -q -N ""
