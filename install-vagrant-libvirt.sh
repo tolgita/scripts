@@ -31,5 +31,5 @@ Vagrant.configure("2") do |config|
   end
 end
 EOF
-vagrant up
+vagrant up --provider=libvirt
 vagrant ssh
